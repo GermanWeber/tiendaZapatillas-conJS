@@ -1,5 +1,5 @@
 import { zapatillas } from "./zapatillas.js";
-import {renderCards} from "./funciones.js"
+import {renderCards, renderCardsMarca} from "./funciones.js"
 
 // console.log("erthetnetn");
 // console.log(robots[0]);
@@ -25,14 +25,10 @@ import {renderCards} from "./funciones.js"
 // console.log(getRobotById("013"));
 
 
-// const getRobotBySeries =(series=2) =>{
 
-//     return robots.filter((robot) =>{
-//         return robot.series ===series;
-//     })
-// }
 
 // console.log(getRobotBySeries(2));
 
 renderCards(zapatillas,"ListaZapatillas");
 
+renderCardsMarca(zapatillas,"marca","ListaZapatillas");
