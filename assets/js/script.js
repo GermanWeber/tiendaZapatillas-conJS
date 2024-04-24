@@ -1,5 +1,5 @@
-import { robots } from "./robots.js";
-import {createCard , renderCards, getRobotById} from "./funciones.js"
+import { zapatillas } from "./zapatillas.js";
+import {renderCards} from "./funciones.js"
 
 // console.log("erthetnetn");
 // console.log(robots[0]);
@@ -34,5 +34,5 @@ import {createCard , renderCards, getRobotById} from "./funciones.js"
 
 // console.log(getRobotBySeries(2));
 
-renderCards(robots,"RobotsRow");
+renderCards(zapatillas,"ListaZapatillas");
 
